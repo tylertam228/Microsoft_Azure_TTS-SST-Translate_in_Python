@@ -23,14 +23,14 @@ Setup Instructions
 3. **Configure the `.env` File**
    - Create a `.env` file in the project root with the following keys:
      ```
-     Azure_api_key=YOUR_AZURE_SPEECH_KEY
-     region=YOUR_AZURE_REGION
-     endpoint=YOUR_AZURE_ENDPOINT
-     Azure_Translator_Key=YOUR_TRANSLATOR_KEY
-     Azure_Translator_Region=YOUR_TRANSLATOR_REGION
-     Azure_Translator_Endpoint=YOUR_TRANSLATOR_ENDPOINT (or https://api.cognitive.microsofttranslator.com/)
-     microphone_device_id=YOUR_MICROPHONE_DEVICE_ID
-     speaker_device_id=YOUR_SPEAKER_DEVICE_ID
+     AZURE_API_KEY=YOUR_AZURE_SPEECH_SERVICE_KEY
+     REGION=YOUR_AZURE_SPEECH_SERVICE_REGION
+     ENDPOINT=YOUR_AZURE_SPEECH_SERVICE_ENDPOINT
+     AZURE_TRANSLATOR_KEY=YOUR_TRANSLATION_KEY
+     AZURE_TRANSLATOR_REGION=YOUR_TRANSLATION_REGION
+     AZURE_TRANSLATOR_ENDPOINT=YOUR_TRANSLATOR_ENDPOINT (or https://api.cognitive.microsofttranslator.com/)
+     MICROPHONE_DEVICE_ID=YOUR_MICROPHONE_DEVICE_ID
+     SPEAKER_DEVICE_ID=YOUR_SPEAKER_DEVICE_ID
      ```
    - Replace the values with your actual credentials and device IDs.
 
